@@ -1,0 +1,107 @@
+version: "v1.0"
+description: "Canonical Roman Urdu normalization lexicon mapping variants to standard orthography"
+
+mappings:
+  # High-frequency grammatical function words
+  mein:
+    - "main"
+    - "mai"
+    - "mey"
+    - "me"
+  nahi:
+    - "nai"
+    - "nhi"
+    - "nhe"
+    - "nh"
+  bohat:
+    - "bohut"
+    - "bht"
+    - "bhot"
+    - "bhoot"
+  acha:
+    - "achha"
+    - "achaa"
+    - "achah"
+  kaisa:
+    - "kesa"
+    - "kaisy"
+    - "kaise"
+  kyun:
+    - "kyu"
+    - "kyo"
+    - "kyn"
+  lekin:
+    - "lakin"
+    - "lekn"
+    - "lkn"
+  theek:
+    - "thik"
+    - "thk"
+    - "thek"
+  shukriya:
+    - "shukrya"
+    - "sukriya"
+    - "shukria"
+  sirf:
+    - "srf"
+    - "srif"
+  pata:
+    - "pta"
+    - "patah"
+  baat:
+    - "bat"
+    - "baath"
+  cheez:
+    - "chez"
+    - "chiz"
+  paise:
+    - "paisay"
+    - "pasy"
+    - "pesy"
+  wapis:
+    - "wapsi"
+    - "waps"
+  dobara:
+    - "dubara"
+    - "dobaara"
+
+  # High-sentiment evaluation adjectives & nouns
+  zabardast:
+    - "zbrdst"
+    - "zabardst"
+    - "zbrdast"
+  behtareen:
+    - "behtreen"
+    - "bhtareen"
+    - "bhtreen"
+  kharab:
+    - "khrab"
+    - "khraab"
+    - "kharaab"
+  bakwas:
+    - "bkwas"
+    - "bakwaas"
+    - "bkwass"
+  pasand:
+    - "psand"
+    - "passand"
+  faida:
+    - "fayda"
+    - "faydha"
+  masla:
+    - "msla"
+    - "maslah"
+
+# English stopword guard list: tokens that must NOT be mapped when code-switched
+english_guard_tokens:
+  - "main"     # English: 'main road', 'main issue'
+  - "me"       # English: 'contact me', 'call me'
+  - "no"
+  - "not"
+  - "so"
+  - "to"
+  - "on"
+  - "in"
+  - "it"
+  - "is"
+
