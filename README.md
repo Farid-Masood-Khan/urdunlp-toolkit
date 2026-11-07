@@ -1,6 +1,7 @@
 # UrduNLP Toolkit — Low-Resource NLP for Urdu & Roman Urdu
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code Style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 [![Type Checked: Mypy](https://img.shields.io/badge/type%20checked-mypy-blue.svg)](https://github.com/python/mypy)
 [![Tests: Pytest](https://img.shields.io/badge/tests-18%2F18%20passing-brightgreen.svg)](https://docs.pytest.org/)
@@ -9,7 +10,9 @@
 
 A reproducible, open-source NLP toolkit engineered for the two real written forms of Urdu: **native Arabic script (Nastaliq)** and **Roman Urdu (Latin transliteration)**.
 
-> **Why Low-Resource NLP Engineering Matters:** Roman Urdu has no standardized spelling (*bohat*, *boht*, *bht*, *bohattt*) and frequent code-switching with English. Off-the-shelf models fail because feature capacity is wasted on orthographic noise. UrduNLP eliminates this noise with a proven **15.26% vocabulary reduction** and leak-free evaluation.
+> **Why Low-Resource NLP Engineering Matters:** Roman Urdu has no standardized spelling (*bohat*, *boht*, *bht*, *bohattt*) and frequent code-switching with English. Off-the-shelf models fail because feature capacity is wasted on orthographic noise. UrduNLP eliminates this noise with a proven **15.26% vocabulary reduction** and leak-free evaluation.  
+> 
+> 💡 **Research Lineage**: This production toolkit directly evolved from our foundational research baseline, **[Sentiment-Analysis-of-Product-Reviews](https://github.com/Farid-Masood-Khan/Sentiment-Analysis-of-Product-Reviews)**.
 
 ---
 
